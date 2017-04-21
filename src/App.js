@@ -48,6 +48,7 @@ class App extends Component {
         <div className="column is-half is-offset-one-quarter has-text-centered">
           <TodoForm addTodo={this.addTodo} />
           <Todos todos={this.state.todos} removeTodo={this.removeTodo} />
+          <p className="is-small" style={{marginTop: '20%'}}>Created by <a href="https://mateo.io">Francisco Mateo</a></p>
         </div>
       </div>
     )
